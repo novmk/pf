@@ -196,8 +196,12 @@ body {
 	font-size: 0.92rem;
 }
 
+.advent_story .fix {
+	float: left;
+}
+
 .advent_story span {
-	display: inline-grid;
+	float: left;
 	margin-left: 3rem;
 }
 
@@ -439,6 +443,9 @@ body {
 	float: left;
 	text-align: left;
 	width: 80%;
+	overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .cnt_slides_numbers .slides_number {
@@ -551,14 +558,17 @@ body {
 /* ---------- media query ---------- */
 
 @media only screen and (max-width: 768px) {
-  html {font-size:10px}
+  html {font-size:12px}
   body {overflow: initial;}
+  .project {padding: 1rem;}
   .cnt_left, .cnt_right {float:initial;width:100%;}
   .cnt_left.b_r {border-right:none;border-bottom:1px solid #000;}
   .cnt_right {overflow-y:initial;}
-  .cnt_slides {min-height:60.25vw;margin-top:4.5rem;}
+  .cnt_slides {min-height:60.25vw;margin-top:2rem;}
   .p_left, .p_right {float:initial;width:100%;}
   .p_body {display:none;}
+  .cnt_slides_numbers .slides_des {display: none;}
+  .cnt_slides_numbers > span {font-size: 1rem;}
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1080px) {
