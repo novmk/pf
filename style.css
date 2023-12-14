@@ -565,7 +565,7 @@ body {
   .cnt_left, .cnt_right {float:initial;width:100%;}
   .cnt_left.b_r {border-right:none;border-bottom:1px solid #000;}
   .cnt_right {overflow-y:initial;}
-  .advent_column {font-size: 0.8rem;}
+  .advent_column {font-size: 0.78rem;}
   .advent_column.home {padding:1.5rem;}
   .cnt_slides {min-height:60.25vw;margin-top:2rem;}
   .p_left, .p_right {float:initial;width:100%;}
