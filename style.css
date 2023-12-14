@@ -550,7 +550,8 @@ body {
 
 /* ---------- footer ----------	*/
 
-#footer .p_right {
+#footer .f_right {
+	float: right;
 	text-align: right;
 }
 
