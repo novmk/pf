@@ -601,12 +601,8 @@ body {
   html {font-size:14px}
 }
 
-@media only screen and (min-width: 1901px) and (max-width: 2000px) {
+@media only screen and (min-width: 1901px) {
   html {font-size:15px}
-}
-
-@media only screen and (min-width: 2001px) {
-  html {font-size:16px}
 }
 
 
