@@ -580,6 +580,11 @@ body {
   .cnt_page #footer {padding-bottom:6rem;}
 }
 
+
+@media only screen and (min-width: 769px) and (max-width: 1080px) {
+  .advent_c > .advent_shadow {margin-left:-1.2vw;margin-top:-0.3vw;}
+} 
+
 @media only screen and (min-width: 769px) and (max-width: 1080px) {
   html {font-size:10px}
 } 
@@ -588,12 +593,20 @@ body {
   html {font-size:11px}
 } 
 
-@media only screen and (min-width: 1401px) and (max-width: 1700px) {
+@media only screen and (min-width: 1401px) and (max-width: 1728px) {
   html {font-size:12px}
 } 
 
-@media only screen and (min-width: 1730px) {
-  html {font-size:13px}
+@media only screen and (min-width: 1729px) and (max-width: 1900px) {
+  html {font-size:14px}
+}
+
+@media only screen and (min-width: 1901px) and (max-width: 2000px) {
+  html {font-size:15px}
+}
+
+@media only screen and (min-width: 2001px) {
+  html {font-size:16px}
 }
 
 
