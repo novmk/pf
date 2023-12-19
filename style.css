@@ -550,15 +550,15 @@ body {
 @media only screen and (max-width: 768px) {
   html {font-size:12px}
   body {overflow: initial;}
-  .project {padding: 1.15rem 1.2rem;}
+  .project {padding: 1.2rem;}
   .cnt_left, .cnt_right {float:initial;width:100%;}
   .cnt_left.b_r {border-right:none;border-bottom:1px solid #000;}
   .cnt_right {overflow-y:initial;}
   .advent_column {font-size: 0.85rem;}
   .advent_column.home {padding:1.2rem;}
   .advent_column.home > a {font-size:1.8rem;}
-  .advent_t {margin-top: 1%;}
-  .cnt_slides {min-height:60.25vw;margin-top:2.1rem;}
+  .advent_t {margin-top: 2%;}
+  .cnt_slides {min-height:60.25vw;margin-top:2.2rem;}
   .p_left .p_text .p_t {margin-left:4rem;}
   .p_left, .p_right {float:initial;width:100%;}
   .p_body {display:none;}
