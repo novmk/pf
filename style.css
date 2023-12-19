@@ -313,11 +313,11 @@ body {
 }
 
 .advent_column.home {
-	padding: 2.1rem 1.9rem;
+	padding: 2.2rem 1.9rem;
 }
 
 .advent_column.home > a {
-	font-size: 1.62rem;
+	font-size: 1.7rem;
 	line-height: 1.0;
 }
 
@@ -555,12 +555,13 @@ body {
   .cnt_left.b_r {border-right:none;border-bottom:1px solid #000;}
   .cnt_right {overflow-y:initial;}
   .advent_column {font-size: 0.85rem;}
-  .advent_column.home {padding:1.5rem;}
+  .advent_column.home {padding:1rem;}
   .advent_t {margin-top: 0;}
   .cnt_slides {min-height:60.25vw;margin-top:2rem;}
   .p_left .p_text .p_t {margin-left:4rem;}
   .p_left, .p_right {float:initial;width:100%;}
   .p_body {display:none;}
+  .cnt_slides_numbers {margin-top:0.6rem;}
   .cnt_slides_numbers .slides_des {display: none;}
   .cnt_slides_numbers > span {font-size: 1rem;}
   .advent_c > img {margin-top: 8%}
