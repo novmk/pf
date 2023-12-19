@@ -27,29 +27,44 @@ $(document).ready(function() {
     });
 
     function dragElement(elmnt) {
+        
         var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-        if (document.getElementById(elmnt.id + "header")) {
-          document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-        } else {
-          elmnt.onmousedown = dragMouseDown;
-        }
+        
+        elmnt.addEventListener("mousedown", dragMouseDown);
+        elmnt.addEventListener("touchstart", dragTouchStart);
 
         function dragMouseDown(e) {
-          e = e || window.event;
-          e.preventDefault();
+          // e.preventDefault();
           pos3 = e.clientX;
           pos4 = e.clientY;
           document.onmouseup = closeDragElement;
           document.onmousemove = elementDrag;
         }
 
+        function dragTouchStart(e) {
+          // e.preventDefault();
+          var touch = e.touches[0];
+          pos3 = touch.clientX;
+          pos4 = touch.clientY;
+          document.ontouchend = closeDragElement;
+          document.ontouchmove = elementDrag;
+        }
+
         function elementDrag(e) {
-          e = e || window.event;
-          e.preventDefault();
-          pos1 = pos3 - e.clientX;
-          pos2 = pos4 - e.clientY;
-          pos3 = e.clientX;
-          pos4 = e.clientY;
+          // e.preventDefault();
+          if (e.type === "mousemove") {
+            pos1 = pos3 - e.clientX;
+            pos2 = pos4 - e.clientY;
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+          } else if (e.type === "touchmove") {
+            var touch = e.touches[0];
+            pos1 = pos3 - touch.clientX;
+            pos2 = pos4 - touch.clientY;
+            pos3 = touch.clientX;
+            pos4 = touch.clientY;
+          }
+
           elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
           elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
         }
@@ -57,7 +72,12 @@ $(document).ready(function() {
         function closeDragElement() {
           document.onmouseup = null;
           document.onmousemove = null;
+          document.ontouchend = null;
+          document.ontouchmove = null;
         }
+        
+
+
     }
 
     $("#toggleRed").click(function(e){

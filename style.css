@@ -550,18 +550,20 @@ body {
 @media only screen and (max-width: 768px) {
   html {font-size:12px}
   body {overflow: initial;}
-  .project {padding: 1.6rem 1rem;}
+  .project {padding: 1.2rem 1rem;}
   .cnt_left, .cnt_right {float:initial;width:100%;}
   .cnt_left.b_r {border-right:none;border-bottom:1px solid #000;}
   .cnt_right {overflow-y:initial;}
   .advent_column {font-size: 0.85rem;}
   .advent_column.home {padding:1.5rem;}
+  .advent_t {margin-top: 0;}
   .cnt_slides {min-height:60.25vw;margin-top:2rem;}
+  .p_left .p_text .p_t {margin-left:4rem;}
   .p_left, .p_right {float:initial;width:100%;}
   .p_body {display:none;}
   .cnt_slides_numbers .slides_des {display: none;}
   .cnt_slides_numbers > span {font-size: 1rem;}
-  .advent_c > img {margin-top: 18%}
+  .advent_c > img {margin-top: 8%}
   .page_images > img {margin-bottom: 1rem;}
   .page_nav {width:100%;padding:1.5rem;margin-bottom:0;background:#fff;text-align:right;}
   .cnt_page .cnt_left {height:initial;}
