@@ -550,7 +550,7 @@ body {
 @media only screen and (max-width: 768px) {
   html {font-size:12px}
   body {overflow: initial;}
-  .project {padding:1.4rem 1.1rem 1rem 1.1rem;}
+  .project {padding:1.4rem 1.1rem 1.1rem 1.1rem;}
   .cnt_left, .cnt_right {float:initial;width:100%;}
   .cnt_left.b_r {border-right:none;border-bottom:1px solid #000;}
   .cnt_right {overflow-y:initial;}
@@ -558,7 +558,7 @@ body {
   .advent_column.home {padding:1.2rem;}
   .advent_column.home > a {font-size:1.8rem;}
   .advent_t {margin-top: 5%;}
-  .cnt_slides {min-height:60.25vw;margin-top:2.2rem;}
+  .cnt_slides {min-height:60.25vw;margin-top:2.1rem;}
   .p_left .p_text .p_t {margin-left:4rem;}
   .p_left, .p_right {float:initial;width:100%;}
   .p_body {display:none;}
