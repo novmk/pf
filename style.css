@@ -472,14 +472,14 @@ body {
 	width: 1.1rem;
 	height: 1.1rem;
 	border-radius: 1.1rem;
-	top: 0.55rem;
+	top: 0.5rem;
 }
 
 .page_text .page_title .t1 {
 	position: relative;
-	font-size: 1.85rem;
-	padding-left: 4.2rem;
-	line-height: 1.2;
+	font-size: 1.7rem;
+	padding-left: 4.1rem;
+	line-height: 1.25;
 }
 
 .page_text .page_title .t2 {
