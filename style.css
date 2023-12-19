@@ -560,7 +560,7 @@ body {
   .advent_t {margin-top: 2%;}
   .cnt_slides {min-height:60.25vw;margin-top:2.3rem;}
   .p_left .p_text .p_t {margin-left:4rem;}
-  .page_text .page_title .p_circle {top:0.8rem;}
+  .page_text .page_title .p_circle {top:0.6rem;}
   .p_left, .p_right {float:initial;width:100%;}
   .p_body {display:none;}
   .cnt_slides_numbers {margin-top:0.6rem;}
