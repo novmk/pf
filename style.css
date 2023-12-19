@@ -305,7 +305,7 @@ body {
 	width: 100%;
 	padding: 1rem;
 	color: #fff;
-	margin-top: 1.5rem;
+	margin-top: 17%;
 }
 
 .advent_t > a {
@@ -550,14 +550,14 @@ body {
 @media only screen and (max-width: 768px) {
   html {font-size:12px}
   body {overflow: initial;}
-  .project {padding: 1.2rem 1.2rem;}
+  .project {padding: 1.1rem 1.2rem;}
   .cnt_left, .cnt_right {float:initial;width:100%;}
   .cnt_left.b_r {border-right:none;border-bottom:1px solid #000;}
   .cnt_right {overflow-y:initial;}
   .advent_column {font-size: 0.85rem;}
   .advent_column.home {padding:1.2rem;}
   .advent_column.home > a {font-size:1.8rem;}
-  .advent_t {margin-top: 0.4rem;}
+/*  .advent_t {margin-top: 0.3rem;}*/
   .cnt_slides {min-height:60.25vw;margin-top:2rem;}
   .p_left .p_text .p_t {margin-left:4rem;}
   .p_left, .p_right {float:initial;width:100%;}
