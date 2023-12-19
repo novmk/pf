@@ -558,7 +558,7 @@ body {
   .advent_column.home {padding:1.2rem;}
   .advent_column.home > a {font-size:1.8rem;}
   .advent_t {margin-top: 3%;}
-  .cnt_slides {min-height:60.25vw;margin-top:2.4rem;}
+  .cnt_slides {min-height:60.25vw;margin-top:2.3rem;}
   .p_left .p_text .p_t {margin-left:4rem;}
   .p_left, .p_right {float:initial;width:100%;}
   .p_body {display:none;}
@@ -566,7 +566,7 @@ body {
   .cnt_slides_numbers .slides_des {display: none;}
   .cnt_slides_numbers > span {font-size: 1rem;}
   .advent_c > img {margin-top: 8%}
-  .page_text .page_title .t1 {width:96%;padding-left:3.8rem;}
+  .page_text .page_title .t1 {width:84%;padding-left:3.8rem;}
   .page_images > img {margin-bottom: 1rem;}
   .page_nav {width:100%;padding:1.2rem;margin-bottom:0;background:#fff;text-align:right;}
   .cnt_page .cnt_left {height:initial;}
