@@ -574,8 +574,8 @@ body {
 }
 
 
-@media only screen and (min-width: 769px) and (max-width: 1080px) {
-  .advent_c > .advent_shadow {margin-left:-1.2vw;margin-top:-0.3vw;}
+@media only screen and (min-width: 1729px) and (max-width: 3500px) {
+  .advent_c > img {margin-top:24%}
 } 
 
 @media only screen and (min-width: 769px) and (max-width: 1080px) {
