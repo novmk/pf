@@ -393,10 +393,6 @@ body {
 	width: 10rem;
 }
 
-/*.p_left .p_body .info a:hover, .p_left .p_body .info a:focus {
-	text-decoration: underline;
-}*/
-
 .p_right {
 	float: right;
 	width: 47.2vw;
@@ -554,11 +550,11 @@ body {
 @media only screen and (max-width: 768px) {
   html {font-size:12px}
   body {overflow: initial;}
-  .project {padding: 1.6rem 1.4rem;}
+  .project {padding: 1.6rem 1rem;}
   .cnt_left, .cnt_right {float:initial;width:100%;}
   .cnt_left.b_r {border-right:none;border-bottom:1px solid #000;}
   .cnt_right {overflow-y:initial;}
-  .advent_column {font-size: 0.78rem;}
+  .advent_column {font-size: 0.85rem;}
   .advent_column.home {padding:1.5rem;}
   .cnt_slides {min-height:60.25vw;margin-top:2rem;}
   .p_left, .p_right {float:initial;width:100%;}
