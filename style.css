@@ -557,7 +557,7 @@ body {
   .advent_column {font-size: 0.85rem;}
   .advent_column.home {padding:1.2rem;}
   .advent_column.home > a {font-size:1.8rem;}
-  .advent_t {margin-top: 2%;}
+  .advent_t {margin-top: 3%;}
   .cnt_slides {min-height:60.25vw;margin-top:2.3rem;}
   .p_left .p_text .p_t {margin-left:4rem;}
   .p_left, .p_right {float:initial;width:100%;}
