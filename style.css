@@ -599,12 +599,13 @@ body {
   .advent_c > img {margin-top: 8%}
   .page_text .page_title .t1 {padding-left:3.8rem;}
   .page_images > img {margin-bottom: 1rem;}
-  .page_nav {width:100%;padding:1.2rem;margin-bottom:0;background:#fff;text-align:right;}
+  .page_nav {width:100%;padding:1.2rem;margin-bottom:0;background:#fff;}
   .cnt_page {position:relative;}
   .cnt_page .cnt_left {height:initial;}
   .cnt_page .project {padding:1rem;}
   .cnt_page .page_text.project {padding:1rem;}
   .cnt_page .p_circle {left:0.2rem;}
+  .cnt_page .cnt_left .page_body {width:100%}
   .cnt_page .cnt_left .page_body > p {padding:0 0.2rem;}
   .cnt_page .cnt_left .page_text .info th {padding-left:0.2rem;}
   #footer .f_left {float:right;}
