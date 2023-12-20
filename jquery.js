@@ -34,7 +34,7 @@ $(document).ready(function() {
         elmnt.addEventListener("touchstart", dragTouchStart);
 
         function dragMouseDown(e) {
-          // e.preventDefault();
+          e.preventDefault();
           pos3 = e.clientX;
           pos4 = e.clientY;
           document.onmouseup = closeDragElement;
@@ -51,7 +51,7 @@ $(document).ready(function() {
         }
 
         function elementDrag(e) {
-          // e.preventDefault();
+          e.preventDefault();
           if (e.type === "mousemove") {
             pos1 = pos3 - e.clientX;
             pos2 = pos4 - e.clientY;
