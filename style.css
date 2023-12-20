@@ -453,6 +453,11 @@ body {
 
 /* ---------- page ----------	*/
 
+.cnt_list {
+	width: 100%;
+	height: 100vh;
+}
+
 .cnt_page {
 	width: 100%;
 }
@@ -465,23 +470,27 @@ body {
 	width: 100%;
 }
 
+.cnt_page .page_text.project {
+	padding-right: 0.2rem;
+}
+
 .cnt_page .page_text .page_title {
 	padding-top: 1.2rem;
 	padding-bottom: 4rem;
 }
 
 .page_text .page_title .p_circle {
-	width: 1.1rem;
-	height: 1.1rem;
-	border-radius: 1.1rem;
-	top: 0.5rem;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 1rem;
+	top: 0.42rem;
 }
 
 .page_text .page_title .t1 {
 	position: relative;
-	font-size: 1.7rem;
-	padding-left: 4.1rem;
-	line-height: 1.25;
+	font-size: 1.25rem;
+	padding-left: 4rem;
+	line-height: 1.55;
 }
 
 .page_text .page_title .t2 {
@@ -489,6 +498,7 @@ body {
 }
 
 .page_text .page_body {
+	width: 96%;
 	margin-bottom: 2rem;
 }
 
@@ -513,6 +523,10 @@ body {
 	margin-bottom: 2rem;
 }
 
+.page_images > img:last-child {
+	margin-bottom: 0;
+}
+
 .page_images > img:after {
 	content: '';
 	display: block;
@@ -524,18 +538,33 @@ body {
 }
 
 .page_nav {
-	position: fixed;
+	position: absolute;
 	left: 0;
 	bottom: 0;
 	width: 25vw;
 	padding-left: 2rem;
+	padding-right: 0.2rem;
 	margin-bottom: 2rem;
+	background: #fff;
 }
 
-.page_nav .btn:hover {
+.index li {
 	width: 100%;
-	cursor: pointer;
-	text-decoration: underline;
+	height: 6.5rem;
+	padding: 1rem 0;
+	white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.index > li > span {
+	float: left;
+	font-size: 0.76rem;
+}
+
+.index > li > p {
+	padding-left: 4rem;
+	font-size: 0.9rem;
 }
 
 
@@ -553,9 +582,9 @@ body {
   html {font-size:12px}
   body {overflow: initial;}
   .project {padding:1.4rem 1.1rem 1.2rem 1.1rem;}
-  .cnt_left, .cnt_right {float:initial;width:100%;}
+  .cnt_left, .cnt_right {float:initial;width:100%;height:100%;}
   .cnt_left.b_r {border-right:none;border-bottom:1px solid #000;}
-  .cnt_right {overflow-y:initial;}
+  .cnt_right {overflow-y:initial;padding-bottom:20rem;}
   .advent_column {font-size: 0.85rem;}
   .advent_column.home {padding:1.2rem;}
   .advent_column.home > a {font-size:1.8rem;}
@@ -571,8 +600,10 @@ body {
   .page_text .page_title .t1 {padding-left:3.8rem;}
   .page_images > img {margin-bottom: 1rem;}
   .page_nav {width:100%;padding:1.2rem;margin-bottom:0;background:#fff;text-align:right;}
+  .cnt_page {position:relative;}
   .cnt_page .cnt_left {height:initial;}
   .cnt_page .project {padding:1rem;}
+  .cnt_page .page_text.project {padding:1rem;}
   .cnt_page .p_circle {left:0.2rem;}
   .cnt_page .cnt_left .page_body > p {padding:0 0.2rem;}
   .cnt_page .cnt_left .page_text .info th {padding-left:0.2rem;}
