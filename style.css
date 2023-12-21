@@ -483,12 +483,13 @@ body {
 	width: 0.95rem;
 	height: 0.95rem;
 	border-radius: 0.95rem;
-	top: 0.28rem;
+	top: 0.3rem;
 }
 
 .page_text .page_title .t1 {
 	position: relative;
-	font-size: 1rem;
+	font-size: 1.2rem;
+	line-height: 1.4;
 	padding-left: 4rem;
 }
 
