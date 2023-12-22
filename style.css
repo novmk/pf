@@ -550,22 +550,23 @@ body {
 
 .index li {
 	width: 100%;
-	height: 6.5rem;
 	padding: 1rem 0;
 	white-space: nowrap; 
   overflow: hidden;
   text-overflow: ellipsis;
+  font-size: 0.9rem;
 }
 
 .index > li > span {
 	float: left;
-	font-size: 0.76rem;
+/*	font-size: 0.76rem;*/
 }
 
 .index > li > p {
 	padding-left: 4rem;
-	font-size: 0.9rem;
+/*	font-size: 0.9rem;*/
 }
+
 
 
 /* ---------- footer ----------	*/
