@@ -779,7 +779,14 @@ body {
     float: left;
     width: 50%;
     font-size: 1rem;
+    line-height: 1.3;
     margin-bottom: 2.2rem;
+}
+
+#caption {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 1.2rem;
 }
 
 #passwordInput {
@@ -821,8 +828,8 @@ input#passwordInput:focus {
 }
 
 #videoContainer {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
