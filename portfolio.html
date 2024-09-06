@@ -29,9 +29,22 @@
 </head>
 
 <body style="background:#000;">
-    <div id="pfContainer" style="width:100vw;height:100vh;">
+    <div id="passwordContainer">
+        <div>
+            <h2>MYOUNGAE'S<br>PORTFOLIO</h2>
+            <h2 style="text-align:right;">LAST UPDATED<br>5 SEP 2024</h2>
+        </div>
+        <div style="position:relative;">
+            <input type="password" id="passwordInput" placeholder="Enter Password">
+            <button id="submitPassword">SUBMIT</button>
+        </div>
+        <p id="errorMessage"></p>
+    </div>
+
+    <div id="pfContainer" style="display: none;width:100vw;height:100vh">
         <iframe src="https://drive.google.com/file/d/1KOv_W2JVqjMv2CvoEWRKEuJi_yz4n-yA/preview" width="100%" height="100%" allow="autoplay"></iframe>
     </div>
 
+    <script src="script_pf.js"></script>
 </body>
 </html>
