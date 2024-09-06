@@ -1,7 +1,7 @@
 function checkPassword() {
     var passwordInput = document.getElementById('passwordInput');
     var password = passwordInput.value;
-    var correctPassword = 'chocolate';  // Replace with your desired password
+    var correctPassword = 'CHOCOLATE';
     var errorMessage = document.getElementById('errorMessage');
 
     if (password === correctPassword) {
@@ -9,7 +9,7 @@ function checkPassword() {
         document.getElementById('videoContainer').style.display = 'flex';
     } else {
         errorMessage.textContent = 'Incorrect password. Please try again.';
-        passwordInput.value = '';  // Clear the input field
+        passwordInput.value = '';
     }
 }
 
