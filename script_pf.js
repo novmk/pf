@@ -25,5 +25,7 @@ document.getElementById('protectedPf').addEventListener('contextmenu', function(
     e.preventDefault();
 });
 
+document.getElementsByClassName('ndfHFb-c4YZDc-Wrql6b-SmKAyb').style.display = 'none';
+
 
 
