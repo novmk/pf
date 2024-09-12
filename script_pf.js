@@ -21,7 +21,7 @@ document.getElementById('passwordInput').addEventListener('keydown', function(ev
     }
 });
 
-document.getElementById('protectedVideo').addEventListener('contextmenu', function(e) {
+document.getElementById('protectedPf').addEventListener('contextmenu', function(e) {
     e.preventDefault();
 });
 
