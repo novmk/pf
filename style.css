@@ -853,7 +853,7 @@ input#passwordInput:focus {
 }
 
 #videoContainer {
-    width: 100vw;
+    width: 100.1vw;
     height: 100vh;
     display: flex;
     justify-content: center;
