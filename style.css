@@ -914,7 +914,7 @@ input#passwordInput:focus {
   #aboutBtn > span {font-size:1.6rem;margin-top:0;}
   .text_hide > img {width:6rem;transform:translate(-3rem, -3.5rem);}
   div#passwordContainer {width:29rem;margin-left:-14.5rem;}
-  div#videoContainer, div#pfContainer {height:88vh;}
+  div#videoContainer, div#pfContainer {height:88.4vh;}
 }
 
 
