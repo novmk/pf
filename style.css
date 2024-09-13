@@ -852,7 +852,7 @@ input#passwordInput:focus {
     margin-top: 1.5rem;
 }
 
-#videoContainer {
+#videoContainer, #pfContainer {
     width: 100.1vw;
     height: 100vh;
     display: flex;
