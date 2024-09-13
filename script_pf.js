@@ -24,12 +24,3 @@ document.getElementById('passwordInput').addEventListener('keydown', function(ev
 document.getElementById('protectedPf').addEventListener('contextmenu', function(e) {
     e.preventDefault();
 });
-
-
-let iframeDiv = document.querySelector('iframe');
-let iframeDocument = iframeDiv.contentDocument || iframeDiv.contentWindow.document;
-
-let divInIframe = iframeDocument.querySelector('div.ndfHFb-c4YZDc-Wrql6b-SmKAyb');
-if (divInIframe) {
-  divInIframe.style.display = 'none';
-}
