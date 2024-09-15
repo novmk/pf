@@ -815,7 +815,8 @@ body {
 
 #passwordInput {
     font-size: 1rem;
-    width: 68%;
+    width: 60.5%;
+    top: 0;
     padding: 1.1rem 1.4rem;
     border: 1px solid #212121;
     background: #000;
@@ -829,7 +830,7 @@ input#passwordInput:focus {
 
 #submitPassword {
     position: absolute;
-    bottom: 0;
+    top: 0;
     right: 0;
     width: 32%;
     font-size: 1rem;
