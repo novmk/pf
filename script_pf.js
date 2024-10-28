@@ -1,7 +1,7 @@
 function checkPassword() {
     var passwordInput = document.getElementById('passwordInput');
     var password = passwordInput.value;
-    var correctPassword = 'CHOCOLATE';
+    var correctPassword = document.getElementById('errorMessage').innerHTML;
     var errorMessage = document.getElementById('errorMessage');
 
     if (password === correctPassword) {
