@@ -762,7 +762,7 @@ body {
   }
 }
 
-/* ---------- reel ----------	*/
+/* ---------- pf ----------	*/
 
 #passwordContainer {
     position: absolute;
@@ -779,33 +779,61 @@ body {
     clear: both;
 }
 
-#passwordContainer h2 {
-    float: left;
-    font-size: 1rem;
-    line-height: 1.3;
+#passwordContainer .pf_title {
+    border-top: 1px solid #222;
 }
 
-#passwordContainer h2.h2_r {
-    text-align:right;
-    float:right;
+#passwordContainer .p_circle {
+    width: 1.24rem;
+    height: 1.24rem;
+    border-radius: 1.24rem;
+    background: #fff;
+}
+
+#passwordContainer span {
+    float: right;
+    color: #555;
+}
+
+#passwordContainer ul li {
+    height: 3.5rem;
+    line-height: 3.5rem;
+    border-top: 1px solid #222;
+}
+
+#passwordContainer ul li:last-child {
+    border-bottom: 1px solid #222;
+}
+
+#passwordContainer .arrow {
+    float: right;
 }
 
 #passwordContainer a {
     text-decoration: none;
-    color: #fff;
+    color: #555;
 }
 
 #passwordContainer a:hover, #passwordContainer a:focus {
     color: #555;
 }
 
-#passwordContainer span {
-    display: inline-block;
-    width: 1px;
-    height: 0.8rem;
+#passwordContainer ul li:hover {
     background: #555;
-    margin: -0.5px 1rem;
 }
+
+#passwordContainer ul li:hover a {
+    color:#fff;
+}
+
+#passwordContainer ul li svg {
+    opacity: 0.5;
+}
+
+#passwordContainer ul li:hover svg {
+    opacity: 1;
+}
+
 
 #caption {
     font-size: 1rem;
